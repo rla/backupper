@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "rules": {
+    "semi": "error",
+    "no-undef": "error"
+  },
+  "globals": {
+    "ko": true,
+    "uuid": true,
+    "$": true,
+    "describe": true,
+    "it": true
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  }
+}

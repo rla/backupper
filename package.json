@@ -1,0 +1,15 @@
+{
+  "name": "backupper",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "request": "^2.81.0",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "lint": "eslint index.js lib/"
+  }
+}
