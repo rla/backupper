@@ -11,5 +11,11 @@ Installation from GitHub:
 npm install git+https://rla@github.com/rla/backupper.git -g
 ```
 
+Crontab entry (adjust paths):
+
+```
+0 2 * * * /opt/node-v7.9.0-linux-x64/bin/backupper -b /files/backups/automatic >> /files/backups/automatic/backup.log 2>&1
+```
+
 If you want to reuse pieces of code then do so under the
 conditions of the MIT license.
