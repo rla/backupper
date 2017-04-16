@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "aws-sdk": "^2.41.0",
     "request": "^2.81.0",
     "yargs": "^7.1.0"
   },
@@ -11,5 +12,8 @@
   },
   "scripts": {
     "lint": "eslint index.js lib/"
+  },
+  "bin": {
+    "backupper": "index.js"
   }
 }
