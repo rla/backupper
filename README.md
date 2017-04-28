@@ -8,7 +8,7 @@ are built onto SSH, RSYNC, GIT, TAR and Amazon S3.
 Installation from GitHub:
 
 ```
-npm install git+https://rla@github.com/rla/backupper.git -g
+npm install git+https://github.com/rla/backupper.git -g
 ```
 
 Crontab entry (adjust paths):
